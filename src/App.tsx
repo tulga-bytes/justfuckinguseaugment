@@ -21,7 +21,7 @@ function App() {
           variant="inverted"
           size="icon-xl"
         >
-          <a href="https://github.com/justfuckinguseaugment/justfuckinguseaugment.github.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tulga-bytes/justfuckinguseaugment" target="_blank" rel="noopener noreferrer">
             <GitHubIcon className="h-5 w-5" />
             <span className="sr-only">View on GitHub</span>
           </a>
@@ -313,7 +313,7 @@ function App() {
 
         <Separator className="my-16" />
 
-        <footer className="text-center pb-8">
+        <footer className="text-center pb-8 space-y-2">
           <p className="text-xs text-muted-foreground">
             Inspired by{' '}
             <a href="https://justfuckingusetailwind.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground transition-colors">
@@ -326,6 +326,16 @@ function App() {
             {' & '}
             <a href="https://justfuckingusehtml.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground transition-colors">
               justfuckingusehtml.com
+            </a>
+          </p>
+          <p className="text-xs text-muted-foreground">
+            Built by Tulga Tsogtgerel |{' '}
+            <a href="https://x.com/tulga_bytes" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground transition-colors">
+              Twitter/X
+            </a>
+            {' | '}
+            <a href="https://github.com/tulga-bytes" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground transition-colors">
+              GitHub
             </a>
           </p>
         </footer>
