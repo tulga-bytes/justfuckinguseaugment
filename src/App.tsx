@@ -3,6 +3,7 @@ import { Separator } from "./components/ui/separator"
 import { Button } from "./components/ui/button"
 import { ThemeToggle } from "./components/theme-toggle"
 import { ArrowRight } from "lucide-react"
+import { track } from "@vercel/analytics"
 
 function GitHubIcon({ className }: { className?: string }) {
   return (
@@ -303,6 +304,7 @@ function App() {
               href="https://www.augmentcode.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track('Get Started Click')}
               className="inline-flex items-center justify-center gap-2 h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium text-sm hover:bg-primary/90 transition-colors"
             >
               Get started
